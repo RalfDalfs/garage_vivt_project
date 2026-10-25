@@ -1,0 +1,70 @@
+=== RUN   TestKnownTokens
+--- PASS: TestKnownTokens (0.00s)
+=== RUN   TestCommentAndWhitespaceInvariant
+--- PASS: TestCommentAndWhitespaceInvariant (0.00s)
+=== RUN   TestRejectInvalidSource
+--- PASS: TestRejectInvalidSource (0.00s)
+PASS
+ok  	lab1-halstead/cmd/halstead	(cached)
+?   	lab1-halstead/cmd/linear	[no test files]
+?   	lab1-halstead/cmd/modular	[no test files]
+=== RUN   TestCLI
+=== RUN   TestCLI/linear
+=== RUN   TestCLI/linear/empty
+=== RUN   TestCLI/linear/blank
+=== RUN   TestCLI/linear/empty_list
+=== RUN   TestCLI/linear/one_car
+=== RUN   TestCLI/linear/unknown
+=== RUN   TestCLI/linear/duplicate
+=== RUN   TestCLI/linear/exit
+=== RUN   TestCLI/linear/eof_without_newline
+=== RUN   TestCLI/linear/invalid
+=== RUN   TestCLI/linear/nearest
+=== RUN   TestCLI/linear/reset_on_new_visit
+=== RUN   TestCLI/linear/order_and_accumulation
+=== RUN   TestCLI/linear/too_long_line
+=== RUN   TestCLI/modular
+=== RUN   TestCLI/modular/empty
+=== RUN   TestCLI/modular/blank
+=== RUN   TestCLI/modular/empty_list
+=== RUN   TestCLI/modular/one_car
+=== RUN   TestCLI/modular/unknown
+=== RUN   TestCLI/modular/duplicate
+=== RUN   TestCLI/modular/exit
+=== RUN   TestCLI/modular/eof_without_newline
+=== RUN   TestCLI/modular/invalid
+=== RUN   TestCLI/modular/nearest
+=== RUN   TestCLI/modular/reset_on_new_visit
+=== RUN   TestCLI/modular/order_and_accumulation
+=== RUN   TestCLI/modular/too_long_line
+--- PASS: TestCLI (0.21s)
+    --- PASS: TestCLI/linear (0.11s)
+        --- PASS: TestCLI/linear/empty (0.00s)
+        --- PASS: TestCLI/linear/blank (0.00s)
+        --- PASS: TestCLI/linear/empty_list (0.00s)
+        --- PASS: TestCLI/linear/one_car (0.00s)
+        --- PASS: TestCLI/linear/unknown (0.00s)
+        --- PASS: TestCLI/linear/duplicate (0.00s)
+        --- PASS: TestCLI/linear/exit (0.00s)
+        --- PASS: TestCLI/linear/eof_without_newline (0.00s)
+        --- PASS: TestCLI/linear/invalid (0.00s)
+        --- PASS: TestCLI/linear/nearest (0.00s)
+        --- PASS: TestCLI/linear/reset_on_new_visit (0.00s)
+        --- PASS: TestCLI/linear/order_and_accumulation (0.00s)
+        --- PASS: TestCLI/linear/too_long_line (0.00s)
+    --- PASS: TestCLI/modular (0.10s)
+        --- PASS: TestCLI/modular/empty (0.00s)
+        --- PASS: TestCLI/modular/blank (0.00s)
+        --- PASS: TestCLI/modular/empty_list (0.00s)
+        --- PASS: TestCLI/modular/one_car (0.00s)
+        --- PASS: TestCLI/modular/unknown (0.00s)
+        --- PASS: TestCLI/modular/duplicate (0.00s)
+        --- PASS: TestCLI/modular/exit (0.00s)
+        --- PASS: TestCLI/modular/eof_without_newline (0.00s)
+        --- PASS: TestCLI/modular/invalid (0.00s)
+        --- PASS: TestCLI/modular/nearest (0.00s)
+        --- PASS: TestCLI/modular/reset_on_new_visit (0.00s)
+        --- PASS: TestCLI/modular/order_and_accumulation (0.00s)
+        --- PASS: TestCLI/modular/too_long_line (0.00s)
+PASS
+ok  	lab1-halstead/tests	0.215s
